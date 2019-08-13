@@ -1,0 +1,27 @@
+{
+  "name": "cds-auth-server",
+  "version": "0.0.1",
+  "description": "CDS Authorization Server",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConsumerDataStandardsAustralia/cds-auth-server.git"
+  },
+  "keywords": [
+    "FAPI",
+    "OAuth2",
+    "Open",
+    "ID",
+    "Connect",
+    "OIDC"
+  ],
+  "author": "fyang1024",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ConsumerDataStandardsAustralia/cds-auth-server/issues"
+  },
+  "homepage": "https://github.com/ConsumerDataStandardsAustralia/cds-auth-server#readme"
+}
