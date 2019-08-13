@@ -6,6 +6,10 @@ It is based on [node-oidc-provider](https://github.com/panva/node-oidc-provider)
 
 It uses [koa](https://koajs.com/) as HTTP handler
 
-Software requirements:
+####Software requirements:
 
 * node v12 or above
+
+####License
+
+* MIT
