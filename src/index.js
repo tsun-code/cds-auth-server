@@ -22,6 +22,19 @@ const configuration = {
     'common:customer.basic:read',
     'common:customer.detail:read'
   ],
+  claims: {
+    acr: null,
+    auth_time: null,
+    iss: null,
+    openid: [
+      'sub', 'name', 'given_name', 'family_name', 'updated_at'
+    ],
+    sid: null,
+    vot: null,
+    vtm: null,
+    sharing_expires_at: null,
+    refresh_token_expires_at: null
+  },
   clients: [{
     client_id: 'foo',
     client_secret: 'bar',
