@@ -1,6 +1,27 @@
 const Provider = require('oidc-provider')
 
 const configuration = {
+  features: {
+    clientCredentials: { enabled: true },
+    request: { enabled: true },
+    requestUri: { enabled: false }
+  },
+  introspectionEndpointAuthMethods: ['private_key_jwt'],
+  tokenEndpointAuthMethods: ['private_key_jwt'],
+  subjectTypes: ['pairwise'],
+  responseTypes: ['code id_token'],
+  scopes: [
+    'openid',
+    'profile',
+    'offline_access',
+    'bank:accounts.basic:read',
+    'bank:accounts.detail:read',
+    'bank:payees:read',
+    'bank:regular_payments:read',
+    'bank:transactions:read',
+    'common:customer.basic:read',
+    'common:customer.detail:read'
+  ],
   clients: [{
     client_id: 'foo',
     client_secret: 'bar',
