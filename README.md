@@ -8,8 +8,16 @@ It uses [koa](https://koajs.com/) as HTTP handler
 
 ####Software requirements:
 
-* node v12 or above
+* [node v12 or above](https://nodejs.org/en/)
+* [yarn](https://yarnpkg.com/en/)
+
+####Get started
+
+* `yarn start` to start the server
+* `yarn watch` to start the server with automatic reload when files change,
+   which useful for development. [nodemon](https://www.npmjs.com/package/nodemon) is required
 
 ####License
 
 * MIT
+
